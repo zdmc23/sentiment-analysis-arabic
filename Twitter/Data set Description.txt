@@ -1,0 +1,51 @@
+https://archive.ics.uci.edu/ml/datasets/Twitter+Data+set+for+Arabic+Sentiment+Analysis#
+
+1. Title: Twitter Data set for Arabic Sentiment Analysis
+
+2. Sources:
+     (a) Creator: N. A. Abdulla and N. Mahyoub
+     (b) Donor: N. A. Abdulla (naabdulla11@cit.just.edu.jo)
+     (c) Date: April, 2014
+
+3. Past Usage:
+   - Publications:
+   1.  Abdulla N. A., Mahyoub N. A., Shehab M., Al-Ayyoub M.,
+        “Arabic Sentiment Analysis: Corpus-based and Lexicon-based”,
+        IEEE conference on Applied Electrical Engineering and Computing Technologies (AEECT 2013),
+        December 3-12, 2013, Amman, Jordan. (Accepted for Publication).
+
+4. Relevant Information:
+   --- By using a tweet crawler, we collect 2000 labelled tweets (1000 positive tweets and 1000 negative ones)
+       on various topics such as: politics and arts. These tweets include opinions written in both
+       Modern Standard Arabic (MSA) and the Jordanian dialect.
+
+   --- The selected tweets convey some kind of feelings (positive or negative) and the objective of our model is
+        to extract valuable information from such tweets in order to determine the sentiment orientation of the inputted text.
+       The months-long annotation process of the tweets is manually conducted mainly by two human experts
+       (native speakers of Arabic). If both experts agree on the label of a certain tweet, then the tweet is assigned this label.
+       Otherwise, a third expert is consulted to break the tie. 
+
+   --- Predicted attribute: class of opinion polarity.
+    
+
+5. Number of Instances: 2000 (1000 in each of two classes)
+
+6. Number of Attributes: string attribute (vector of words) and the class
+
+7. Attribute Information:
+   1. Tweet as a string vector
+   2. class: 
+      -- Positive polarity
+      -- Negative poalrity
+
+8. Missing Attribute Values: None
+
+Summary Statistics:
+	 			Positive	Negative        
+  	Total tweets		1000	1000
+	Total words		7189	9769
+	Avg. words in each tweet	7.19	9.97
+	Avg. characters in each tweet	40.04	59.02
+
+
+9. Class Distribution: 50% for each of 2 classes.
